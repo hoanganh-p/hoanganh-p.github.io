@@ -647,6 +647,16 @@ main {
     margin: auto;
   }
 
+  .project-img {
+    justify-content: center;
+    gap: 10px; 
+  }
+  
+  .project-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
 }
 
 /**
@@ -760,6 +770,7 @@ main {
     font-weight: bold;
     font-size: 110%;
   }
+
   /* .info-content a:hover:not(::after) {
     font-weight: bold;
     font-size: 110%;
